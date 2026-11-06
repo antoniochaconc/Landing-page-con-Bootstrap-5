@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tostadero Marea | Café de especialidad en Madrid</title>
+  <meta name="description" content="Tostadero Marea: café de especialidad tostado cada día, cata, talleres y suscripción mensual.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- 1. CABECERA DE NAVEGACIÓN -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-marea fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">Tostadero Marea</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar u ocultar el menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="#planes">Planes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">Preguntas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#opiniones">Opiniones</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Más</a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#contacto">Contacto</a></li>
+              <li><a class="dropdown-item" href="#pie">Aviso legal</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#pie">Créditos de imágenes</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="inicio">
+
+<!-- 2. PORTADA (HERO) -->
+<section class="hero bg-marea text-white position-relative d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-12 col-lg-6">
+        <h1 class="display-4 mb-3">Café tostado esta mañana, en tu taza esta tarde</h1>
+        <p class="lead text-white-50 mb-4">Tostamos en pequeños lotes granos de cooperativas que conocemos por su nombre. Pasa por la barra o recíbelo en casa cada mes.</p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="#planes" class="btn btn-azafran btn-lg">Ver planes</a>
+          <a href="#contacto" class="btn btn-outline-light btn-lg">Reservar una cata</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <figure class="figure m-0">
+          <img src="img/hero.svg" class="figure-img img-fluid rounded-4 shadow" alt="Ilustración de una taza de café humeante sobre fondo azul petróleo">
+          <figcaption class="figure-caption text-white-50">Ilustración original del proyecto.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. CARACTERÍSTICAS / SERVICIOS -->
+<section id="servicios" class="bg-espuma">
+  <div class="container">
+    <h2 class="mb-2">Lo que hacemos en Marea</h2>
+    <p class="mb-5 text-secondary">Tres formas de disfrutar del café de especialidad.</p>
+    <div class="row g-4">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="card h-100 border shadow-sm rounded-3">
+          <img src="img/grano.svg" class="card-img-top" alt="Taza con el texto Café de origen">
+          <div class="card-body p-4">
+            <h3 class="h5 card-title">Café de origen</h3>
+            <p class="card-text">Etiopía, Colombia y Guatemala. Cada saco llega con la ficha del productor y la altura de la finca.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="card h-100 border shadow-sm rounded-3">
+          <img src="img/obrador.svg" class="card-img-top" alt="Taza sobre fondo amarillo con el texto Tostado diario">
+          <div class="card-body p-4">
+            <h3 class="h5 card-title">Tostado diario</h3>
+            <p class="card-text">Tostamos cada mañana en lotes de 5 kg. Fecha de tueste impresa en todas las bolsas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="card h-100 border shadow-sm rounded-3">
+          <img src="img/taller.svg" class="card-img-top" alt="Taza sobre fondo claro con el texto Cata y talleres">
+          <div class="card-body p-4">
+            <h3 class="h5 card-title">Cata y talleres</h3>
+            <p class="card-text">Sesiones de dos horas para aprender a preparar espresso, filtro y métodos de inmersión en casa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Información del producto: pestañas -->
+    <div class="mt-5 p-4 bg-white border rounded-3 shadow-sm">
+      <h3 class="h4 mb-3">Información de nuestro café</h3>
+      <ul class="nav nav-tabs" id="pestanasCafe" role="tablist">
+        <li class="nav-item" role="presentation"><button class="nav-link active" id="tab-origen" data-bs-toggle="tab" data-bs-target="#panel-origen" type="button" role="tab" aria-controls="panel-origen" aria-selected="true">Origen</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link" id="tab-tueste" data-bs-toggle="tab" data-bs-target="#panel-tueste" type="button" role="tab" aria-controls="panel-tueste" aria-selected="false">Tueste</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link" id="tab-preparar" data-bs-toggle="tab" data-bs-target="#panel-preparar" type="button" role="tab" aria-controls="panel-preparar" aria-selected="false">Preparación</button></li>
+      </ul>
+      <div class="tab-content pt-3">
+        <div class="tab-pane fade show active" id="panel-origen" role="tabpanel" aria-labelledby="tab-origen" tabindex="0">Compramos directamente a cooperativas de pequeños productores, pagando por encima del precio de mercado.</div>
+        <div class="tab-pane fade" id="panel-tueste" role="tabpanel" aria-labelledby="tab-tueste" tabindex="0">Tueste medio-claro para resaltar notas frutales y florales, sin amargor.</div>
+        <div class="tab-pane fade" id="panel-preparar" role="tabpanel" aria-labelledby="tab-preparar" tabindex="0">Para filtro, 15 g de café por 250 ml de agua a 93 °C. Molienda media.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. GALERÍA CON CARRUSEL -->
+<section id="galeria">
+  <div class="container">
+    <nav aria-label="Ruta de navegación">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#inicio">Inicio</a></li>
+        <li class="breadcrumb-item"><a href="#servicios">Servicios</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Galería</li>
+      </ol>
+    </nav>
+    <h2 class="mb-4">Así es el local</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-xl-8">
+        <div id="carruselLocal" class="carousel slide shadow rounded-3 overflow-hidden" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselLocal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
+            <button type="button" data-bs-target="#carruselLocal" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+            <button type="button" data-bs-target="#carruselLocal" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active"><img src="img/sala.svg" class="d-block img-fluid" alt="Ilustración de la sala principal del tostadero"></div>
+            <div class="carousel-item"><img src="img/barra.svg" class="d-block img-fluid" alt="Ilustración de la barra de café"></div>
+            <div class="carousel-item"><img src="img/terraza.svg" class="d-block img-fluid" alt="Ilustración de la terraza"></div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carruselLocal" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carruselLocal" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
+        </div>
+        <nav aria-label="Paginación de la galería" class="mt-4 d-flex justify-content-center">
+          <ul class="pagination">
+            <li class="page-item"><button type="button" class="page-link" data-bs-target="#carruselLocal" data-bs-slide="prev">Anterior</button></li>
+            <li class="page-item"><button type="button" class="page-link" data-bs-target="#carruselLocal" data-bs-slide-to="0">1</button></li>
+            <li class="page-item"><button type="button" class="page-link" data-bs-target="#carruselLocal" data-bs-slide-to="1">2</button></li>
+            <li class="page-item"><button type="button" class="page-link" data-bs-target="#carruselLocal" data-bs-slide-to="2">3</button></li>
+            <li class="page-item"><button type="button" class="page-link" data-bs-target="#carruselLocal" data-bs-slide="next">Siguiente</button></li>
+          </ul>
+        </nav>
+        <div class="row g-3 mt-2 d-none d-md-flex">
+          <div class="col-md-4"><img src="img/sala.svg" class="img-thumbnail img-fluid" alt="Miniatura de la sala"></div>
+          <div class="col-md-4"><img src="img/barra.svg" class="img-thumbnail img-fluid" alt="Miniatura de la barra"></div>
+          <div class="col-md-4"><img src="img/terraza.svg" class="img-thumbnail img-fluid" alt="Miniatura de la terraza"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. PLANES Y PRECIOS -->
+<section id="planes" class="bg-espuma">
+  <div class="container">
+    <h2 class="mb-2">Suscripción mensual</h2>
+    <p class="mb-4 text-secondary">Elige cuánto café quieres recibir. Cancelas cuando quieras.</p>
+    <div class="table-responsive shadow-sm rounded-3">
+      <table class="table table-bordered table-striped align-middle text-center mb-0 bg-white">
+        <caption class="p-2">Comparativa de planes. Precios con IVA incluido.</caption>
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">Característica</th>
+            <th scope="col">Pequeño</th>
+            <th scope="col" class="text-bg-warning">Habitual (más elegido)</th>
+            <th scope="col">Familiar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Café al mes</th><td>250 g</td><td>500 g</td><td>1 kg</td></tr>
+          <tr><th scope="row">Orígenes distintos</th><td>1</td><td>2</td><td>3</td></tr>
+          <tr><th scope="row">Envío</th><td>Incluido</td><td>Incluido</td><td>Incluido</td></tr>
+          <tr><th scope="row">Taller de cata</th><td>No</td><td>1 al trimestre</td><td>1 al mes</td></tr>
+          <tr><th scope="row">Precio mensual</th><td class="fw-bold">9 €</td><td class="fw-bold">16 €</td><td class="fw-bold">29 €</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="btn-group mt-4" role="group" aria-label="Elegir plan">
+      <a href="#contacto" class="btn btn-outline-dark">Quiero el Pequeño</a>
+      <a href="#contacto" class="btn btn-dark">Quiero el Habitual</a>
+      <a href="#contacto" class="btn btn-outline-dark">Quiero el Familiar</a>
+    </div>
+  </div>
+</section>
+
+<!-- 6. PREGUNTAS FRECUENTES -->
+<section id="faq">
+  <div class="container">
+    <h2 class="mb-4">Preguntas frecuentes</h2>
+    <div class="accordion" id="acordeonFaq">
+      <div class="accordion-item">
+        <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">¿Cuánto tarda en llegar el pedido?</button></h3>
+        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#acordeonFaq"><div class="accordion-body">Entre 24 y 48 horas laborables en la península, en bolsa con válvula para conservar el aroma.</div></div>
+      </div>
+      <div class="accordion-item">
+        <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">¿Puedo elegir la molienda?</button></h3>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#acordeonFaq"><div class="accordion-body">Sí: grano entero, espresso, filtro o prensa francesa. Puedes cambiarla cada mes.</div></div>
+      </div>
+      <div class="accordion-item">
+        <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">¿Cómo cancelo la suscripción?</button></h3>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#acordeonFaq"><div class="accordion-body">Escríbenos antes del día 25 y no se genera el siguiente envío. Sin permanencia ni penalización.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. OPINIONES -->
+<section id="opiniones" class="bg-espuma">
+  <div class="container">
+    <h2 class="mb-4">Lo que dicen nuestros clientes</h2>
+    <div class="alert alert-info d-flex align-items-center" role="alert">Valoración media de los últimos 12 meses: 4,8 sobre 5 (126 opiniones).</div>
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 border-0 shadow-sm"><div class="card-body">
+          <span class="badge text-bg-success mb-2">Cliente verificado</span>
+          <p class="card-text">“El etíope de este mes sabe a mermelada de arándanos. Ya no compro en el súper.”</p>
+          <p class="card-text text-secondary mb-0">Lucía R., suscriptora desde 2024</p>
+        </div></div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 border-0 shadow-sm"><div class="card-body">
+          <span class="badge text-bg-warning mb-2">Plan Habitual</span>
+          <p class="card-text">“El taller de cata me enseñó a ajustar la molienda. Mi café en casa ha mejorado muchísimo.”</p>
+          <p class="card-text text-secondary mb-0">Daniel M., Madrid</p>
+        </div></div>
+      </div>
+      <div class="col-12 col-md-12 col-lg-4">
+        <div class="card h-100 border-0 shadow-sm"><div class="card-body">
+          <span class="badge text-bg-primary mb-2">Nuevo cliente</span>
+          <p class="card-text">“Llegó en dos días, bien empaquetado y con la fecha de tueste. Repetiré.”</p>
+          <p class="card-text text-secondary mb-0">Marta P., Alcalá de Henares</p>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. CONTACTO -->
+<section id="contacto">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        <h2 class="mb-4">Escríbenos</h2>
+        <form action="#" method="post" class="p-4 border rounded-4 shadow-sm">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" required autocomplete="name">
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" name="email" required autocomplete="email">
+            </div>
+            <div class="col-md-6">
+              <label for="telefono" class="form-label">Teléfono (opcional)</label>
+              <input type="tel" class="form-control" id="telefono" name="telefono" autocomplete="tel">
+            </div>
+            <div class="col-md-6">
+              <label for="asunto" class="form-label">Asunto</label>
+              <select class="form-select" id="asunto" name="asunto">
+                <option>Quiero suscribirme</option>
+                <option>Reservar una cata</option>
+                <option>Pedido para empresa</option>
+                <option>Otra consulta</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <fieldset>
+                <legend class="form-label fs-6">¿Cómo prefieres que te respondamos?</legend>
+                <div class="form-check form-check-inline"><input class="form-check-input" type="radio" name="respuesta" id="respCorreo" value="correo" checked><label class="form-check-label" for="respCorreo">Por correo</label></div>
+                <div class="form-check form-check-inline"><input class="form-check-input" type="radio" name="respuesta" id="respTel" value="telefono"><label class="form-check-label" for="respTel">Por teléfono</label></div>
+              </fieldset>
+            </div>
+            <div class="col-12">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="privacidad" name="privacidad" required>
+                <label class="form-check-label" for="privacidad">Acepto la política de privacidad</label>
+              </div>
+            </div>
+            <div class="col-12 d-flex justify-content-end gap-2">
+              <button type="reset" class="btn btn-outline-secondary">Borrar</button>
+              <button type="submit" class="btn btn-dark btn-lg">Enviar mensaje</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- 9. PIE DE PÁGINA -->
+<footer id="pie" class="bg-marea text-white py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <h2 class="h5">Tostadero Marea</h2>
+        <p class="text-white-50 mb-0">Calle del Tostador 12, Madrid<br>hola@tostaderomarea.example</p>
+      </div>
+      <div class="col-6 col-md-4">
+        <h2 class="h5">Enlaces</h2>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item"><a class="nav-link text-white ps-0" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link text-white ps-0" href="#planes">Planes</a></li>
+          <li class="nav-item"><a class="nav-link text-white ps-0" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-4">
+        <h2 class="h5">Redes sociales</h2>
+        <ul class="list-unstyled mb-0">
+          <li><a class="link-light" href="https://www.instagram.com/">Instagram</a></li>
+          <li><a class="link-light" href="https://www.facebook.com/">Facebook</a></li>
+          <li><a class="link-light" href="https://www.youtube.com/">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr class="border-light">
+    <div class="d-flex flex-column flex-md-row justify-content-between gap-2 small text-white-50">
+      <p class="mb-0">Aviso legal: página ficticia creada con fines educativos. Los datos, precios y opiniones no son reales.</p>
+      <p class="mb-0">Imágenes: ilustraciones SVG de elaboración propia. Bootstrap 5.3 bajo licencia MIT.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
