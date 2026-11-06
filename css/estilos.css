@@ -1,0 +1,12 @@
+/* Ajustes mínimos propios sobre Bootstrap 5.3 */
+:root { --marea-tinta: #12303a; --marea-espuma: #eef4f3; --marea-azafran: #f2c14e; }
+html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+body { padding-top: 56px; color: #1c2b30; }
+h1, h2, h3, .navbar-brand { font-family: "Fraunces", Georgia, serif; }
+.bg-marea { background-color: var(--marea-tinta); }
+.bg-espuma { background-color: var(--marea-espuma); }
+.btn-azafran { background-color: var(--marea-azafran); border-color: var(--marea-azafran); color: var(--marea-tinta); font-weight: 600; }
+.btn-azafran:hover, .btn-azafran:focus { background-color: #e0ad33; border-color: #e0ad33; color: var(--marea-tinta); }
+.hero { min-height: 80vh; }
+section { padding: 4rem 0; }
+.carousel-item img { width: 100%; max-height: 420px; object-fit: cover; }
